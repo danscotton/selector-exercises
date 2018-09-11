@@ -1,3 +1,5 @@
+const { getProductsInStock } = require('./selectors');
+
 describe('JT Vits', () => {
     describe('getProductsInStock', () => {
         it('returns a list of products in stock (map, filter)', () => {

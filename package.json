@@ -4,9 +4,13 @@
   "description": "Functional programming concepts explained by writing selectors to make tests pass.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --runInBand --bail"
+    "test": "jest"
   },
-  "keywords": ["redux", "selectors", "exercises"],
+  "keywords": [
+    "redux",
+    "selectors",
+    "exercises"
+  ],
   "author": "Dan Scotton",
   "license": "ISC",
   "devDependencies": {
