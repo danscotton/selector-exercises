@@ -1,3 +1,5 @@
+const { getProductsByBrand } = require('./selectors');
+
 describe('JT Vits', () => {
     describe('getProductsByBrand', () => {
         it('returns products grouped by brand (lodash/groupBy or reduce)', () => {
