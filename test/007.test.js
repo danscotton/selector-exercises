@@ -1,3 +1,5 @@
+const { getBrands } = require('./selectors');
+
 describe('JT Vits', () => {
     describe('getBrands', () => {
         it('returns the brands with count of their products, sorted alphabetically (map/reduce)', () => {

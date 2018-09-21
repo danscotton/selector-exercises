@@ -1,3 +1,5 @@
+const { getBasketTotal } = require('./selectors');
+
 describe('JT Vits', () => {
     describe('getBasketTotal', () => {
         it('returns the total cost of the products in the basket (reduce)', () => {

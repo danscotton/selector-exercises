@@ -1,0 +1,4 @@
+"scripts": {
+    "test": "jest --bail --runInBand"
+    "test": "jest ./test/005.test.js"
+},

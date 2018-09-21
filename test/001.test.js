@@ -1,3 +1,5 @@
+const { getProducts } = require('./selectors')
+
 describe('JT Vits', () => {
     describe('getProducts', () => {
         it('returns a list of products (map)', () => {
